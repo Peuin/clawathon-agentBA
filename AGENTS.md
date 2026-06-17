@@ -16,7 +16,8 @@ This repo is the **AI Business Analyst Agent** (BABOK v3 copilot). Paths differ 
 
 - **Python 3.11+** with `python3.12-venv` (`sudo apt install python3.12-venv` on Ubuntu if `python -m venv` fails)
 - **Node.js 18+** and npm
-- `BE/.env` — pre-populated by the cloud install script with Supabase + GreenNode LLM credentials
+- `BE/.env` — committed in the repo with Supabase + GreenNode LLM credentials (no extra setup needed)
+- Backend `venv` + frontend `node_modules` are restored by the update script on startup
 
 ### Starting services
 
